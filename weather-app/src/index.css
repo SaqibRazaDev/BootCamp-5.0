@@ -1,3 +1,47 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer components {
+
+    .heading-hg {
+        @apply text-8xl font-extrabold text-white;
+    }
+
+    .heading-xl {
+        @apply text-5xl font-extrabold text-gray-100;
+    }
+
+    .heading-lg {
+        @apply text-3xl font-bold text-gray-100;
+    }
+
+    .heading-md {
+        @apply text-xl font-bold text-gray-100;
+    }
+
+    .heading-sm {
+        @apply text-base font-bold text-gray-100;
+    }
+
+    .heading-xs {
+        @apply text-sm font-bold text-gray-100;
+    }
+
+    .para-lg {
+        @apply text-xl font-normal text-gray-200;
+    }
+
+    .para-md {
+        @apply text-base font-normal text-gray-100;
+    }
+
+    .para-sm {
+        @apply text-sm font-normal text-gray-200;
+    }
+
+    .para-xs {
+        @apply text-xs font-normal text-gray-200;
+    }
+
+}
