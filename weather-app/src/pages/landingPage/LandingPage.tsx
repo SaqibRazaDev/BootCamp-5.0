@@ -10,7 +10,7 @@ function LandingPage() {
 
         <Logo/>
 
-        <div className="content">
+        <div className="content mb-8">
           <h1 className="opacity-80 mt-40 heading-md md:heading-lg">
             Welcome to <span className='text-blue-300'>Weather App</span>
           </h1>

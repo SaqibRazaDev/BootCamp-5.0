@@ -8,9 +8,10 @@ import WeatherDashboard from './pages/weatherDashboard/WeatherDashboard';
 
 export default function App() {
   return (
-    <div className='bg-gray-900 h-screen px-6'>
+    <div className='bg-gray-900 h-screen p-6 md:p-10'>
       
-      <LandingPage />
+      {/* <LandingPage /> */}
+      <WeatherDashboard/>
       
       </div>
   )
