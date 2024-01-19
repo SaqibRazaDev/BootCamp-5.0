@@ -24,10 +24,10 @@ function WeatherDashboard() {
             <div className="location">
 
               <div className="city-name flex justify-between">
-                <div className="name para-md">Porto Alegre, RS</div>
-                <div className="time para-md">21:39</div>
+                <div className="name heading-md">Porto Alegre, RS</div>
+                <div className="time heading-md">21:39</div>
               </div>
-              <div className="date">
+              <div className="date para-md">
                 Monday, May 15, 2023
               </div>
 

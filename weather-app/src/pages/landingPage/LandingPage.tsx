@@ -1,5 +1,4 @@
 import React from 'react'
-import logo from '../../assets/logo/Logo.png'
 import Logo from '../../components/logo/Logo'
 import LocationInput from '../../components/locationInput/LocationInput'
 
